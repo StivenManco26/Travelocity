@@ -30,9 +30,6 @@ public class EnterToSignInPage implements Task {
 
         actor.attemptsTo(Click.on(TravelocityHomePage.SIGNINHOME_BUTTON),
                 Click.on(TravelocityHomePage.SIGNIN_BUTTON));
-        // Verifica que efectivamente se abre la pagina de sign in, de lo contrario arroja un
-        // AssertionError
-        //actor.should(seeThat(TravelocityVisiblePage.isVisible()));
     }
 
     // metodo que llama al instrumented que crea una instancia en tiempo de

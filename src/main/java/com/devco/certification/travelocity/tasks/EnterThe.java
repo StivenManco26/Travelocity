@@ -41,7 +41,7 @@ public class EnterThe implements Task {
     }
 
     // metodo que llama al instrumented que crea una instancia en tiempo de
-    // ejecución, con el parametro de tipo PersonaModel
+    // ejecución, con el parametro de tipo UserModel
     public static EnterThe credentials(UserModel userModel) {
         return instrumented(EnterThe.class, userModel);
     }

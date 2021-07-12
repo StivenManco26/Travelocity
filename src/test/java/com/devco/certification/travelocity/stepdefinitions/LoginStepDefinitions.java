@@ -51,8 +51,6 @@ public class LoginStepDefinitions {
 
     @Then("^To should see his name in the next page$")
     public void toShouldSeeHisNameInTheNextPage(List<String> name) {
-        //user.should(seeThat(TravelocityLoginResult.page()).orComplainWith(UnableToLogin.class,
-                //getUnableToLoginMessage()));
         user.should(seeThat(TravelocityLoginResult.containsTheUsername(name.get(1))));
     }
 }
