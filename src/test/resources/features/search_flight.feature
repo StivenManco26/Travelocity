@@ -11,5 +11,5 @@ Feature: search flight one-way in travelocity
     Given that the user wants enters the search parameters
       | origin   | destination | departing    |
       | new york | paris       | Jul 29, 2021 |
-    When he he selects the filter morning
-    Then Then he should see the flights offered in the morning
+    When he selects the filter morning
+    Then he should see the flights offered in the morning

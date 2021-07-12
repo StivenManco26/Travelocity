@@ -42,13 +42,13 @@ public class SearchFlightStepDefinitions {
         user.wasAbleTo(FillSearchFields.with(flightParameters.get(0)));
     }
 
-    @When("^he he selects the filter morning$")
-    public void heHeSelectsTheFilterMorning() {
+    @When("^he selects the filter morning$")
+    public void heSelectsTheFilterMorning() {
         user.attemptsTo(FilterByFlights.inTheMorning());
     }
 
-    @Then("^Then he should see the flights offered in the morning$")
-    public void thenHeShouldSeeTheFlightsOfferedInTheMorning() {
+    @Then("^he should see the flights offered in the morning$")
+    public void heShouldSeeTheFlightsOfferedInTheMorning() {
         user.should(seeThat(SearchFlightsResult.isFilterByMorning()));
     }
 }
