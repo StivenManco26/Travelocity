@@ -1,4 +1,5 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
+"add activity to my list","add activity to my list","SUCCESS","2021-07-12T21:59:27.603-05:00[America/Bogota]","0.0","51.77"
 "search flight one-way in travelocity","Search a flight one-way in the morning most cheap","SUCCESS","2021-07-12T00:23:48.64-05:00[America/Bogota]","0.0","19.51"
 "search flight one-way in travelocity","Search a flight one-way in the morning","SUCCESS","2021-07-12T02:03:17.939-05:00[America/Bogota]","0.0","19.91"
 "search stays in travelocity","Search stays","SUCCESS","2021-07-12T14:33:41.62-05:00[America/Bogota]","0.0","32.21"
