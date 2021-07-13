@@ -8,9 +8,11 @@ import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
 import net.serenitybdd.screenplay.targets.Target;
+import net.serenitybdd.screenplay.waits.WaitUntil;
 import net.thucydides.core.annotations.Step;
 
 import static net.serenitybdd.screenplay.Tasks.instrumented;
+import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
 
 /**
  * Clase Task (tarea) para realizar el ingreso de los parametros
@@ -37,9 +39,11 @@ public class FillSearchFields implements Task {
                 Click.on(SearchFlightPage.ONE_WAY_BUTTON),
                 Click.on(SearchFlightPage.LEAVING_FROM_BUTTON),
                 Enter.theValue(searchFlightModel.getOrigin()).into(SearchFlightPage.LEAVING_FROM_TEXTBOX),
+                WaitUntil.the(SearchFlightPage.FIRST_ITEM_LEAVING_FROM_LIST_BUTTON, isVisible()).forNoMoreThan(10).seconds(),
                 Click.on(SearchFlightPage.FIRST_ITEM_LEAVING_FROM_LIST_BUTTON),
                 Click.on(SearchFlightPage.GOING_TO_BUTTON),
                 Enter.theValue(searchFlightModel.getDestination()).into(SearchFlightPage.GOING_TO_TEXTBOX),
+                WaitUntil.the(SearchFlightPage.FIRST_ITEM_GOING_TO_LIST_BUTTON, isVisible()).forNoMoreThan(10).seconds(),
                 Click.on(SearchFlightPage.FIRST_ITEM_GOING_TO_LIST_BUTTON),
                 Click.on(SearchFlightPage.DEPARTING_BUTTON),
                 Click.on(Target.the("date departing button").located(By.xpath("//button[contains(@aria-label,'" + searchFlightModel.getDeparting() + "')]"))),

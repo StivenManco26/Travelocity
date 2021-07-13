@@ -14,7 +14,7 @@ import static net.serenitybdd.screenplay.questions.WebElementQuestion.the;
  */
 
 public class TravelocityVisiblePage implements Question<Boolean> {
-    // verifica si el boton SEARCH esta visible para el actor
+    // verifica si el logo de travelocity esta visible para el actor
     @Override
     public Boolean answeredBy(Actor actor) {
         return the(TravelocityHomePage.TRAVELOCITY_LOGO).answeredBy(actor).isCurrentlyVisible();

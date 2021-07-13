@@ -1,0 +1,248 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/all.css">
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/v4-shims.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="feature_search_cars.html">Search Cars</a></span>
+                > <span class="truncate-60"><a
+                    href="search_cars_search_cars_for_airport_transportation.html">Search cars for airport transportation </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="requirement_type_feature.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 13-07-2021 12:29</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Search Cars </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a Web User<br />
+I want to search cars into travelocity web page<br />
+For my transportation
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="tag_tag.html">Tag
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="tag_searchcars.html">Searchcars
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Search cars for airport transportation
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="b0dbd5bea5c89e6f43f594a292763116d09742a867172ce2db9a160b4b7e3013.png" title="user Opens the browser on Travelocity home page " width="1920"/>
+                <img src="b0dbd5bea5c89e6f43f594a292763116d09742a867172ce2db9a160b4b7e3013.png" title="user opens the Travelocity home page" width="1920"/>
+                <img src="b0dbd5bea5c89e6f43f594a292763116d09742a867172ce2db9a160b4b7e3013.png" title="Then travelocity visible page" width="1920"/>
+                <img src="cf75fbbaff03d78cc29ad959f60b1098a37a3c5b0975c464315c77c687ffc318.png" title="user Opens the browser on Travelocity home page " width="1920"/>
+                <img src="b0dbd5bea5c89e6f43f594a292763116d09742a867172ce2db9a160b4b7e3013.png" title="user opens the Travelocity home page" width="1920"/>
+                <img src="b0dbd5bea5c89e6f43f594a292763116d09742a867172ce2db9a160b4b7e3013.png" title="Then travelocity visible page" width="1920"/>
+                <img src="b0dbd5bea5c89e6f43f594a292763116d09742a867172ce2db9a160b4b7e3013.png" title="user Opens the browser on Travelocity home page " width="1920"/>
+                <img src="b0dbd5bea5c89e6f43f594a292763116d09742a867172ce2db9a160b4b7e3013.png" title="user opens the Travelocity home page" width="1920"/>
+                <img src="b0dbd5bea5c89e6f43f594a292763116d09742a867172ce2db9a160b4b7e3013.png" title="Then travelocity visible page" width="1920"/>
+                <img src="cf75fbbaff03d78cc29ad959f60b1098a37a3c5b0975c464315c77c687ffc318.png" title="Given that the user wants search a airport transportation cars service" width="1920"/>
+                <img src="cf75fbbaff03d78cc29ad959f60b1098a37a3c5b0975c464315c77c687ffc318.png" title="user Opens the browser on Travelocity home page " width="1920"/>
+                <img src="b0dbd5bea5c89e6f43f594a292763116d09742a867172ce2db9a160b4b7e3013.png" title="user opens the Travelocity home page" width="1920"/>
+                <img src="b0dbd5bea5c89e6f43f594a292763116d09742a867172ce2db9a160b4b7e3013.png" title="Then travelocity visible page" width="1920"/>
+                <img src="df93dfcd988f666554f3986370fefec5e31380d5af30b09ddbbb7556e5547226.png" title="When he enters the search parameters
+| airport | hotel | flight arrival date |
+| new york | new york | Jul 29, 2021 |" width="1920"/>
+                <img src="df93dfcd988f666554f3986370fefec5e31380d5af30b09ddbbb7556e5547226.png" title="user Enter the parameters for the cars search" width="1920"/>
+                <img src="b2eadfaf705b1d46e5a0e54e85d227b5736b294b2bd6e2dd497e6272cf89a69f.png" title="user clicks on cars button" width="1920"/>
+                <img src="bd879e41b609ec1079e40ca81c634efbeba36fd652d69846cbf5221300688cd4.png" title="user clicks on airport transportation button" width="1920"/>
+                <img src="e0dad1263b94ae6594a4fa93d28012c91f39762d71c28e175b502922c2378932.png" title="user clicks on airport button" width="1920"/>
+                <img src="1ec3cf46030abe98790dd37c4a8e001e5c09c42c39447e9eb73e778856e00767.png" title="user enters 'new york' into airport textbox" width="1920"/>
+                <img src="6abadb5ce6eb9a130c64077670f4aa9a65bb3a98d57da3dcef56b81725a67808.png" title="Then first item airport button should be an element that is visible" width="1920"/>
+                <img src="9aefe3bc72c3b099b6dba0f0a268304e6ac09ede084358d7f472fd3b6b305ce3.png" title="user clicks on first item airport button" width="1920"/>
+                <img src="b649762680fddab1e577d39477239b093d7a24012cdeac345d4fbc673aee8ca9.png" title="user clicks on hotel name button" width="1920"/>
+                <img src="e9a3a939540ca5c4f8add0ec0f24da9c96b446c187ed5eea4b98e403859da720.png" title="user enters 'new york' into hotel name textbox" width="1920"/>
+                <img src="fdafb5823b6939cf46a6a8e2587f958c59a51761ba7c668147b71992de7bd915.png" title="Then first item hotel name button should be an element that is visible" width="1920"/>
+                <img src="354294cac4b8cef8ba253d722193202068598d88a7e3b919e328654227b8c00f.png" title="user clicks on first item hotel name button" width="1920"/>
+                <img src="6c7def66f0da8bfdddef60bfc220c92855098e521a9f74e1fba40846f3da2fa7.png" title="user clicks on flight arrival date button" width="1920"/>
+                <img src="f0e279f1c0051d1ce8551504b1ca7f5d9669be6122d9163356e4ba45cd849e29.png" title="user clicks on date button" width="1920"/>
+                <img src="c23222079cd7fe4a1d5520f3b999f5ef53c1f0c3277f81983ec130e86d506b61.png" title="user clicks on done button" width="1920"/>
+                <img src="5ff64ac1a1c8f92644f2f7ab50cee6bce6b012211b478e8aadfd3b623455a973.png" title="user clicks on search button" width="1920"/>
+                <img src="df93dfcd988f666554f3986370fefec5e31380d5af30b09ddbbb7556e5547226.png" title="Then he should see the cars service offered in his location
+| location |
+| new york |" width="1920"/>
+                <img src="df93dfcd988f666554f3986370fefec5e31380d5af30b09ddbbb7556e5547226.png" title="Then search cars result: <span class='success-color'>SUCCESS</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.8</span>
+</div>
+</body>
+</html>

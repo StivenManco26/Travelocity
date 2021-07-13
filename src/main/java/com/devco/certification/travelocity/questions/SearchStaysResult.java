@@ -7,7 +7,7 @@ import net.serenitybdd.screenplay.questions.Text;
 /**
  * Clase Question para verificar la correcta busqueda de estadias.
  * Realizando una comparacion del lugar de destino buscado y el
- * lugar de destino obtenido en el primer resultado d ela busqueda
+ * lugar de destino obtenido en el primer resultado de la busqueda
  * @author manco.5@hotmail.com
  */
 public class SearchStaysResult implements Question<Boolean> {
@@ -20,8 +20,6 @@ public class SearchStaysResult implements Question<Boolean> {
 
     @Override
     public Boolean answeredBy(Actor actor) {
-        System.out.println(destination);
-        System.out.println(Text.of(ResultSearchStaysPage.FIRST_HOTEL_PLACE_LABEL).viewedBy(actor).asString());
         return Text.of(ResultSearchStaysPage.FIRST_HOTEL_PLACE_LABEL).viewedBy(actor).asString().equalsIgnoreCase(destination);
     }
 

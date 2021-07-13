@@ -10,8 +10,8 @@ Feature: Login in travelocity
   Scenario: Login
     Given that User wants sign in into Travelocity
     When he enter the username and password
-      | username                | password       |
-      | johanescobar1@gmail.com | DevcoPass.2021 |
+      | username            | password   |
+      | manco.5@hotmail.com | Soluciones |
     Then To should see his name in the next page
-      | name  |
-      | Johan |
+      | name   |
+      | Stiven |

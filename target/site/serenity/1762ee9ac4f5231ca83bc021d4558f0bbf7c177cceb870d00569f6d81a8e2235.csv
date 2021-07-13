@@ -1,2 +1,3 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"search stays in travelocity","Search stays","FAILURE","2021-07-12T14:32:50.034-05:00[America/Bogota]","0.0","34.62"
+"add activity to my list","add activity to my list","FAILURE","2021-07-13T12:28:35.609-05:00[America/Bogota]","0.0","42.87"
+"search flight one-way in travelocity","Search a flight one-way in the morning","FAILURE","2021-07-13T12:30:18.216-05:00[America/Bogota]","0.0","29.14"
