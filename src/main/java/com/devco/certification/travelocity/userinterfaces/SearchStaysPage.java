@@ -11,15 +11,24 @@ import net.serenitybdd.screenplay.targets.Target;
  */
 
 public class SearchStaysPage extends PageObject {
-    public static String initialDate;
-    public static String finalDate;
+
+    // SELECTORS
     public static final Target GOING_TO_BUTTON = Target.the("going to button").located(By.xpath("//button[@class='uitk-faux-input' and @aria-label='Going to']"));
     public static final Target GOING_TO_TEXTBOX = Target.the("going to textbox").located(By.xpath("//input[@id='location-field-destination']"));
     public static final Target FIRST_ITEM_GOING_TO_LIST_BUTTON = Target.the("first item going to list button").located(By.xpath("//li[@data-index='0' and @data-stid='location-field-destination-result-item']"));
     public static final Target CHECK_IN_BUTTON = Target.the("check in button").located(By.xpath("//button[@id='d1-btn']"));
-    public static final Target DATE_CHECK_IN_BUTTON = Target.the("date check in button").located(By.xpath("//button[contains(@aria-label,'" + initialDate + "')]"));
+    public static Target DATE_CHECK_IN_BUTTON;
     public static final Target DONE_BUTTON = Target.the("done button").located(By.xpath("//button[@data-stid='apply-date-picker']"));
     public static final Target CHECK_OUT_BUTTON = Target.the("check out button").located(By.xpath("//button[@id='d2-btn']"));
-    public static final Target DATE_CHECK_OUT_BUTTON = Target.the("date check out button").located(By.xpath("//button[contains(@aria-label,'" + finalDate + "')]"));
+    public static Target DATE_CHECK_OUT_BUTTON;
     public static final Target SEARCH_BUTTON = Target.the("search button").located(By.xpath("//button[@class='uitk-button uitk-button-large uitk-button-fullWidth uitk-button-has-text uitk-button-primary']"));
+
+    // ACTIONS
+    public static void selectedDateCheckInFor(String initialDate) {
+        SearchStaysPage.DATE_CHECK_IN_BUTTON = Target.the("date check in button").located(By.xpath("//button[contains(@aria-label,'" + initialDate + "')]"));
+    }
+
+    public static void selectedDateCheckOutFor(String finalDate) {
+        SearchStaysPage.DATE_CHECK_OUT_BUTTON = Target.the("date check out button").located(By.xpath("//button[contains(@aria-label,'" + finalDate + "')]"));
+    }
 }

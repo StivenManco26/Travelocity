@@ -12,6 +12,4 @@ Feature: Login in travelocity
     When he enter the username and password
       | username            | password   |
       | manco.5@hotmail.com | Soluciones |
-    Then To should see his name in the next page
-      | name   |
-      | Stiven |
+    Then To should see his name Stiven in the next page

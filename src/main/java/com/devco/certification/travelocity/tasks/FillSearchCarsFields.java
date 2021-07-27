@@ -2,12 +2,10 @@ package com.devco.certification.travelocity.tasks;
 
 import com.devco.certification.travelocity.models.SearchCarsModel;
 import com.devco.certification.travelocity.userinterfaces.SearchCarsPage;
-import net.serenitybdd.core.annotations.findby.By;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
-import net.serenitybdd.screenplay.targets.Target;
 import net.serenitybdd.screenplay.waits.WaitUntil;
 import net.thucydides.core.annotations.Step;
 
@@ -27,6 +25,7 @@ public class FillSearchCarsFields implements Task {
 
     // constructor de la tarea
     public FillSearchCarsFields(SearchCarsModel searchCarsModel) {
+        SearchCarsPage.selectedDateFor(searchCarsModel.getFlightArrivalDate());
         this.searchCarsModel = searchCarsModel;
     }
 
@@ -46,7 +45,7 @@ public class FillSearchCarsFields implements Task {
                 WaitUntil.the(SearchCarsPage.FIRST_ITEM_HOTEL_NAME_BUTTON, isVisible()).forNoMoreThan(10).seconds(),
                 Click.on(SearchCarsPage.FIRST_ITEM_HOTEL_NAME_BUTTON),
                 Click.on(SearchCarsPage.FLIGHT_ARRIVAL_DATE_BUTTON),
-                Click.on(Target.the("date button").located(By.xpath("//button[contains(@aria-label,'" + searchCarsModel.getFlightArrivalDate() + "')]"))),
+                Click.on(SearchCarsPage.DATE_BUTTON),
                 Click.on(SearchCarsPage.DONE_BUTTON),
                 Click.on(SearchCarsPage.SEARCH_BUTTON)
                 );

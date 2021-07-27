@@ -44,8 +44,8 @@ public class SearchCarsStepDefinitions {
         user.attemptsTo(FillSearchCarsFields.with(searchCarsModel.get(0)));
     }
 
-    @Then("^he should see the cars service offered in his location$")
-    public void heShouldSeeTheCarsServiceOfferedInHisLocation(List<String> location) {
-        user.should(seeThat(SearchCarsResult.isGivenInTheDesired(location.get(1))));
+    @Then("^he should see the cars service offered in (.*)$")
+    public void heShouldSeeTheCarsServiceOfferedIn(String location) {
+        user.should(seeThat(SearchCarsResult.isGivenInTheDesired(location)));
     }
 }

@@ -46,8 +46,8 @@ public class SearchStaysStepDefinitions {
         user.attemptsTo(SearchStays.byClickingOnTheSearchButton());
     }
 
-    @Then("^he should see the stays offered for your destination$")
-    public void heShouldSeeTheStaysOfferedForYourDestination(List<String> destination) {
-        user.should(seeThat(SearchStaysResult.containsTheDesiredDestination(destination.get(1))));
+    @Then("^he should see the stays offered in (.*)$")
+    public void heShouldSeeTheStaysOfferedIn(String destination) {
+        user.should(seeThat(SearchStaysResult.containsTheDesiredDestination(destination)));
     }
 }

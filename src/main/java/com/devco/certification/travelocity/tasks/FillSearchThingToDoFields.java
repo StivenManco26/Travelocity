@@ -27,6 +27,8 @@ public class FillSearchThingToDoFields implements Task {
 
     // constructor de la tarea
     public FillSearchThingToDoFields(ThingToDoSearchModel thingToDoSearchModel) {
+        SearchThingToDoPage.selectedDateFromFor(thingToDoSearchModel.getFrom());
+        SearchThingToDoPage.selectedDateToFor(thingToDoSearchModel.getTo());
         this.thingToDoSearchModel = thingToDoSearchModel;
     }
     // Desarrollo de la tarea
@@ -40,10 +42,10 @@ public class FillSearchThingToDoFields implements Task {
                 WaitUntil.the(SearchThingToDoPage.FIRST_ITEM_LOCATION_LIST_BUTTON, isVisible()).forNoMoreThan(10).seconds(),
                 Click.on(SearchThingToDoPage.FIRST_ITEM_LOCATION_LIST_BUTTON),
                 Click.on(SearchThingToDoPage.FROM_BUTTON),
-                Click.on(Target.the("date from button").located(By.xpath("//button[contains(@aria-label,'" + thingToDoSearchModel.getFrom() + "')]"))),
+                Click.on(SearchThingToDoPage.DATE_FROM_BUTTON),
                 Click.on(SearchThingToDoPage.DONE_BUTTON),
                 Click.on(SearchThingToDoPage.TO_BUTTON),
-                Click.on(Target.the("date to button").located(By.xpath("//button[contains(@aria-label,'" + thingToDoSearchModel.getTo() + "')]"))),
+                Click.on(SearchThingToDoPage.DATE_TO_BUTTON),
                 Click.on(SearchThingToDoPage.DONE_BUTTON),
                 Click.on(SearchThingToDoPage.SEARCH_BUTTON)
                 );

@@ -12,6 +12,4 @@ Feature: search stays in travelocity
       | destination | check in     | check out    |
       | paris       | Jul 29, 2021 | Jul 30, 2021 |
     When he clicks the search button
-    Then he should see the stays offered for your destination
-      | destination |
-      | paris       |
+    Then he should see the stays offered in paris

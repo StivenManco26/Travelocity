@@ -2,12 +2,10 @@ package com.devco.certification.travelocity.tasks;
 
 import com.devco.certification.travelocity.models.SearchStaysModel;
 import com.devco.certification.travelocity.userinterfaces.SearchStaysPage;
-import net.serenitybdd.core.annotations.findby.By;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
-import net.serenitybdd.screenplay.targets.Target;
 import net.serenitybdd.screenplay.waits.WaitUntil;
 import net.thucydides.core.annotations.Step;
 
@@ -27,6 +25,8 @@ public class FillSearchStaysFields implements Task {
 
     // constructor de la tarea
     public FillSearchStaysFields(SearchStaysModel searchStaysModel) {
+        SearchStaysPage.selectedDateCheckInFor(searchStaysModel.getCheckIn());
+        SearchStaysPage.selectedDateCheckOutFor(searchStaysModel.getCheckOut());
         this.searchStaysModel = searchStaysModel;
     }
     // Desarrollo de la tarea
@@ -39,10 +39,10 @@ public class FillSearchStaysFields implements Task {
                 WaitUntil.the(SearchStaysPage.FIRST_ITEM_GOING_TO_LIST_BUTTON, isVisible()).forNoMoreThan(10).seconds(),
                 Click.on(SearchStaysPage.FIRST_ITEM_GOING_TO_LIST_BUTTON),
                 Click.on(SearchStaysPage.CHECK_IN_BUTTON),
-                Click.on(Target.the("date check in button").located(By.xpath("//button[contains(@aria-label,'" + searchStaysModel.getCheckIn() + "')]"))),
+                Click.on(SearchStaysPage.DATE_CHECK_IN_BUTTON),
                 Click.on(SearchStaysPage.DONE_BUTTON),
                 Click.on(SearchStaysPage.CHECK_OUT_BUTTON),
-                Click.on(Target.the("date check out button").located(By.xpath("//button[contains(@aria-label,'" + searchStaysModel.getCheckOut() + "')]"))),
+                Click.on(SearchStaysPage.DATE_CHECK_OUT_BUTTON),
                 Click.on(SearchStaysPage.DONE_BUTTON)
                 );
     }

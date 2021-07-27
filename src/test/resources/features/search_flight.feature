@@ -10,6 +10,6 @@ Feature: search flight one-way in travelocity
   Scenario: Search a flight one-way in the morning
     Given that the user wants enters the search parameters
       | origin   | destination | departing    |
-      | new york | paris       | Jul 29, 2021 |
+      | new york | paris       | Aug 29, 2021 |
     When he selects the filter morning
     Then he should see the flights offered in the morning

@@ -49,8 +49,8 @@ public class LoginStepDefinitions {
         user.attemptsTo(EnterThe.credentials(credentials.get(0)));
     }
 
-    @Then("^To should see his name in the next page$")
-    public void toShouldSeeHisNameInTheNextPage(List<String> name) {
-        user.should(seeThat(TravelocityLoginResult.containsTheUsername(name.get(1))));
+    @Then("^To should see his name (.*) in the next page$")
+    public void toShouldSeeHisNameInTheNextPage(String name) {
+        user.should(seeThat(TravelocityLoginResult.containsTheUsername(name)));
     }
 }
