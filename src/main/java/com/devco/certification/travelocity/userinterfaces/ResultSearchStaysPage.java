@@ -12,5 +12,4 @@ import net.serenitybdd.screenplay.targets.Target;
  */
 public class ResultSearchStaysPage extends PageObject {
     public static final Target FIRST_HOTEL_PLACE_LABEL = Target.the("first hotel place label").located(By.xpath("//ol[@class='results-list no-bullet']/child::li[1]//child::div[1 and @data-test-id='content-hotel-neighborhood']"));
-    //div[@data-test-id='content-hotel-neighborhood']
 }

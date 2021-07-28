@@ -29,22 +29,14 @@ public class OpenTheBrowser implements Task {
     @Override
     @Step("{0} Opens the browser on Travelocity home page ")
     public <T extends Actor> void performAs(T actor) {
-        // Llama la tarea Open que abre el navegador en la pagina page
         actor.attemptsTo(Open.browserOn(page));
-        // Verifica que efectivamente se abre la pagina, de lo contrario arroja un
-        // AssertionError
-
         actor.should(seeThat(TravelocityVisiblePage.isVisible()).orComplainWith(WithoutConnectionToTheNetwork.class,
                 getNoInternetConectionMessage()));
     }
-
     public String getNoInternetConectionMessage() {
         return String.format(WithoutConnectionToTheNetwork.getErrorNetworkMessage());
 
     }
-
-    // metodo que llama al instrumented que crea una instancia en tiempo de
-    // ejecución, con el parametro de tipo PageObject
     public static OpenTheBrowser on(PageObject page) {
         return instrumented(OpenTheBrowser.class, page);
     }

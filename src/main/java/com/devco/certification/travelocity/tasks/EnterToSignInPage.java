@@ -1,6 +1,5 @@
 package com.devco.certification.travelocity.tasks;
 
-import com.devco.certification.travelocity.questions.TravelocityVisiblePage;
 import com.devco.certification.travelocity.userinterfaces.TravelocityHomePage;
 import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.screenplay.Actor;
@@ -8,7 +7,6 @@ import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
 import net.thucydides.core.annotations.Step;
 
-import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 
 /**
@@ -18,12 +16,6 @@ import static net.serenitybdd.screenplay.Tasks.instrumented;
  */
 
 public class EnterToSignInPage implements Task {
-    private PageObject page;
-
-    public EnterToSignInPage(PageObject page) {
-        this.page = page;
-    }
-
     @Override
     @Step("{0} Opens the sign in page")
     public <T extends Actor> void performAs(T actor) {
@@ -32,8 +24,6 @@ public class EnterToSignInPage implements Task {
                 Click.on(TravelocityHomePage.SIGNIN_BUTTON));
     }
 
-    // metodo que llama al instrumented que crea una instancia en tiempo de
-    // ejecución, con el parametro de tipo PageObject
     public static EnterToSignInPage on(PageObject page) {
         return instrumented(EnterToSignInPage.class, page);
     }

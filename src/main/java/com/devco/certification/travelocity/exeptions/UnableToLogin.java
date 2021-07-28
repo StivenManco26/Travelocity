@@ -10,7 +10,6 @@ public class UnableToLogin extends AssertionError{
         return UNABLE_TO_LOGIN;
     }
 
-    //Constructor que llama al constructor de la clase padre AssertionError
     public UnableToLogin(String message, Throwable cause) {
         super(message, cause);
     }

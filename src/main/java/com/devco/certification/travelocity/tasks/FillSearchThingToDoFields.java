@@ -2,12 +2,10 @@ package com.devco.certification.travelocity.tasks;
 
 import com.devco.certification.travelocity.models.ThingToDoSearchModel;
 import com.devco.certification.travelocity.userinterfaces.SearchThingToDoPage;
-import net.serenitybdd.core.annotations.findby.By;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
-import net.serenitybdd.screenplay.targets.Target;
 import net.serenitybdd.screenplay.waits.WaitUntil;
 import net.thucydides.core.annotations.Step;
 
@@ -22,16 +20,13 @@ import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisi
  */
 
 public class FillSearchThingToDoFields implements Task {
-    // modelo de clase que almacena los parametros de busqueda
     private ThingToDoSearchModel thingToDoSearchModel;
 
-    // constructor de la tarea
     public FillSearchThingToDoFields(ThingToDoSearchModel thingToDoSearchModel) {
         SearchThingToDoPage.selectedDateFromFor(thingToDoSearchModel.getFrom());
         SearchThingToDoPage.selectedDateToFor(thingToDoSearchModel.getTo());
         this.thingToDoSearchModel = thingToDoSearchModel;
     }
-    // Desarrollo de la tarea
     @Override
     @Step("{0} Enter the parameters for the Thing to do search")
     public <T extends Actor> void performAs(T actor)
@@ -50,8 +45,6 @@ public class FillSearchThingToDoFields implements Task {
                 Click.on(SearchThingToDoPage.SEARCH_BUTTON)
                 );
     }
-    // metodo que llama al instrumented que crea una instancia en tiempo de
-    // ejecución, con el parametro de tipo searchStaysModel
     public static FillSearchThingToDoFields with(ThingToDoSearchModel thingToDoSearchModel) {
         return instrumented(FillSearchThingToDoFields.class, thingToDoSearchModel);
     }

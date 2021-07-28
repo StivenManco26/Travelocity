@@ -28,7 +28,6 @@ public class SearchCarsStepDefinitions {
 
     private TravelocityHomePage travelocityHomePage;
 
-    // Inicialización del driver a cargo del actor
     @Before
     public void setUp() {
         user.can(BrowseTheWeb.with(hisBrowser));

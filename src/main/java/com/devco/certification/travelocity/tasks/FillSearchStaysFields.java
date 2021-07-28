@@ -20,16 +20,13 @@ import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisi
  */
 public class FillSearchStaysFields implements Task {
 
-    // modelo de clase que almacena los parametros de busqueda
     private SearchStaysModel searchStaysModel;
 
-    // constructor de la tarea
     public FillSearchStaysFields(SearchStaysModel searchStaysModel) {
         SearchStaysPage.selectedDateCheckInFor(searchStaysModel.getCheckIn());
         SearchStaysPage.selectedDateCheckOutFor(searchStaysModel.getCheckOut());
         this.searchStaysModel = searchStaysModel;
     }
-    // Desarrollo de la tarea
     @Override
     @Step("{0} Enter the parameters for the search stays")
     public <T extends Actor> void performAs(T actor)
@@ -46,8 +43,6 @@ public class FillSearchStaysFields implements Task {
                 Click.on(SearchStaysPage.DONE_BUTTON)
                 );
     }
-    // metodo que llama al instrumented que crea una instancia en tiempo de
-    // ejecución, con el parametro de tipo searchStaysModel
     public static FillSearchStaysFields with(SearchStaysModel searchStaysModel) {
         return instrumented(FillSearchStaysFields.class, searchStaysModel);
     }

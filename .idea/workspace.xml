@@ -3,21 +3,40 @@
   <component name="ChangeListManager">
     <list default="true" id="3af8a8c7-5940-46be-b8d1-83cbc5aadb5f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/search#20flight#20one-way#20in#20travelocity.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.devco.certification.travelocity.runners.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-search#20flight#20one-way#20in#20travelocity.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/exeptions/UnableToLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/exeptions/UnableToLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/exeptions/WithoutConnectionToTheNetwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/exeptions/WithoutConnectionToTheNetwork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/questions/SearchCarsResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/questions/SearchCarsResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/questions/TheActivityWasAdded.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/questions/TheActivityWasAdded.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/questions/TravelocityLoginResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/questions/TravelocityLoginResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/questions/TravelocityVisiblePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/questions/TravelocityVisiblePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/tasks/AddFirstItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/tasks/AddFirstItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/tasks/EnterThe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/tasks/EnterThe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/tasks/EnterToSignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/tasks/EnterToSignInPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/tasks/FillSearchCarsFields.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/tasks/FillSearchCarsFields.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/tasks/FillSearchFields.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/tasks/FillSearchFields.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/tasks/FillSearchStaysFields.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/tasks/FillSearchStaysFields.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/tasks/FillSearchThingToDoFields.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/tasks/FillSearchThingToDoFields.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/userinterfaces/SearchCarsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/userinterfaces/SearchCarsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/userinterfaces/SearchFlightPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/userinterfaces/SearchFlightPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/userinterfaces/SearchStaysPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/userinterfaces/SearchStaysPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/userinterfaces/SearchThingToDoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/userinterfaces/SearchThingToDoPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/tasks/FilterByFlights.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/tasks/FilterByFlights.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/tasks/OpenTheBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/tasks/OpenTheBrowser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/tasks/SearchStays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/tasks/SearchStays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/userinterfaces/ResultSearchStaysPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/userinterfaces/ResultSearchStaysPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/devco/certification/travelocity/stepdefinitions/AddActivityToMyListStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/devco/certification/travelocity/stepdefinitions/AddActivityToMyListStepDefinitions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/devco/certification/travelocity/stepdefinitions/LoginStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/devco/certification/travelocity/stepdefinitions/LoginStepDefinitions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/devco/certification/travelocity/stepdefinitions/SearchCarsStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/devco/certification/travelocity/stepdefinitions/SearchCarsStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/devco/certification/travelocity/stepdefinitions/SearchFlightStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/devco/certification/travelocity/stepdefinitions/SearchFlightStepDefinitions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/devco/certification/travelocity/stepdefinitions/SearchStaysStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/devco/certification/travelocity/stepdefinitions/SearchStaysStepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/search_cars.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/search_cars.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/search_flight.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/search_flight.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/search_stays.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/search_stays.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/add_activity_to_my_list.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/add_activity_to_my_list.feature" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -60,11 +79,106 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/search_flight.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="294">
-              <caret line="14" column="57" lean-forward="true" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+              <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/search_stays.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/devco/certification/travelocity/stepdefinitions/AddActivityToMyListStepDefinitions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/devco/certification/travelocity/stepdefinitions/LoginStepDefinitions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/devco/certification/travelocity/stepdefinitions/SearchCarsStepDefinitions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/devco/certification/travelocity/stepdefinitions/SearchFlightStepDefinitions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/devco/certification/travelocity/stepdefinitions/SearchStaysStepDefinitions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1785#1786#0" expanded="true" />
+                <element signature="e#1859#1860#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/add_activity_to_my_list.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/login.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/search_cars.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="14" column="59" lean-forward="true" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -84,57 +198,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/userinterfaces/TravelocityLoggedUserPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/userinterfaces/SignInPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/questions/TravelocityLoginResult.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/devco/certification/travelocity/runners/SearchFlightRunner.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/devco/certification/travelocity/runners/LoginRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/models/searchFlightModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/tasks/EnterThe.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/tasks/EnterToSignInPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/tasks/FilterByFlights.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/userinterfaces/ResultSearchFlightPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/questions/SearchFlightsResult.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/devco/certification/travelocity/stepdefinitions/SearchFlightStepDefinitions.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/devco/certification/travelocity/runners/SearchStaysRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/models/SearchFlightModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/models/SearchStaysModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/userinterfaces/ResultSearchStaysPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/tasks/SearchStays.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/add_activity_to_my_list.feature" />
         <option value="$PROJECT_DIR$/src/test/java/com/devco/certification/travelocity/runners/AddActivityToMyListRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/models/ThingToDoSearchModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/tasks/AddFirstItem.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/userinterfaces/ResultSearchThingToDoPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/devco/certification/travelocity/stepdefinitions/AddActivityToMyListStepDefinitions.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/userinterfaces/FavoritesListPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/questions/TheActivityWasAdded.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/com/devco/certification/travelocity/runners/SearchCarsRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/models/SearchCarsModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/userinterfaces/ResultSearchCarsPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/questions/SearchCarsResult.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/questions/SearchStaysResult.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/questions/TravelocityVisiblePage.java" />
         <option value="$PROJECT_DIR$/serenity.properties" />
         <option value="$PROJECT_DIR$/src/test/java/com/devco/certification/travelocity/runners/AllFeaturesRunner.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/test/resources/features/search_flight.feature" />
         <option value="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/userinterfaces/SearchFlightPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/tasks/FillSearchFields.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/login.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/com/devco/certification/travelocity/stepdefinitions/LoginStepDefinitions.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/devco/certification/travelocity/stepdefinitions/SearchCarsStepDefinitions.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/search_cars.feature" />
-        <option value="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/userinterfaces/SearchCarsPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/tasks/FillSearchCarsFields.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/search_stays.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/com/devco/certification/travelocity/stepdefinitions/SearchStaysStepDefinitions.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/tasks/FillSearchStaysFields.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/userinterfaces/SearchStaysPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/userinterfaces/SearchThingToDoPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/userinterfaces/FavoritesListPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/userinterfaces/ResultSearchStaysPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/questions/SearchCarsResult.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/userinterfaces/SearchCarsPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/tasks/SearchStays.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/questions/TheActivityWasAdded.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/add_activity_to_my_list.feature" />
+        <option value="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/tasks/EnterToSignInPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/exeptions/UnableToLogin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/exeptions/WithoutConnectionToTheNetwork.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/questions/TravelocityLoginResult.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/questions/TravelocityVisiblePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/tasks/AddFirstItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/tasks/EnterThe.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/tasks/FillSearchCarsFields.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/tasks/FillSearchFields.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/tasks/FillSearchStaysFields.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/tasks/FillSearchThingToDoFields.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/tasks/FilterByFlights.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/tasks/OpenTheBrowser.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/devco/certification/travelocity/stepdefinitions/AddActivityToMyListStepDefinitions.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/devco/certification/travelocity/stepdefinitions/LoginStepDefinitions.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/devco/certification/travelocity/stepdefinitions/SearchCarsStepDefinitions.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/devco/certification/travelocity/stepdefinitions/SearchFlightStepDefinitions.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/devco/certification/travelocity/stepdefinitions/SearchStaysStepDefinitions.java" />
       </list>
     </option>
   </component>
@@ -153,10 +267,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="156" />
+    <option name="x" value="155" />
     <option name="y" value="-20" />
-    <option name="width" value="1939" />
-    <option name="height" value="1059" />
+    <option name="width" value="1940" />
+    <option name="height" value="1060" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -206,7 +320,7 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="travelocity" type="462c0819:PsiDirectoryNode" />
-              <item name="tasks" type="462c0819:PsiDirectoryNode" />
+              <item name="exeptions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Travelocity" type="b2602c69:ProjectViewProjectNode" />
@@ -215,7 +329,25 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="travelocity" type="462c0819:PsiDirectoryNode" />
-              <item name="userinterfaces" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Travelocity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Travelocity" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="travelocity" type="462c0819:PsiDirectoryNode" />
+              <item name="questions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Travelocity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Travelocity" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="travelocity" type="462c0819:PsiDirectoryNode" />
+              <item name="tasks" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Travelocity" type="b2602c69:ProjectViewProjectNode" />
@@ -275,8 +407,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -285,7 +417,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+    <property name="settings.editor.selected.configurable" value="sonarlint" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -299,7 +431,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.SearchFlightRunner">
+  <component name="RunManager" selected="Gradle.LoginRunner">
     <configuration name="AddActivityToMyListRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -326,6 +458,26 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;com.devco.certification.travelocity.runners.AllFeaturesRunner&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="LoginRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.devco.certification.travelocity.runners.LoginRunner&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -380,40 +532,20 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SearchStaysRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.devco.certification.travelocity.runners.SearchStaysRunner&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Gradle.SearchStaysRunner" />
       <item itemvalue="Gradle.AddActivityToMyListRunner" />
       <item itemvalue="Gradle.SearchCarsRunner" />
       <item itemvalue="Gradle.AllFeaturesRunner" />
       <item itemvalue="Gradle.SearchFlightRunner" />
+      <item itemvalue="Gradle.LoginRunner" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.LoginRunner" />
+        <item itemvalue="Gradle.AddActivityToMyListRunner" />
+        <item itemvalue="Gradle.SearchCarsRunner" />
         <item itemvalue="Gradle.SearchFlightRunner" />
         <item itemvalue="Gradle.AllFeaturesRunner" />
-        <item itemvalue="Gradle.SearchCarsRunner" />
-        <item itemvalue="Gradle.AddActivityToMyListRunner" />
-        <item itemvalue="Gradle.SearchStaysRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -431,15 +563,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SearchCarsRunner - 2021.07.13 at 01h 37m 30s.xml">
-      <configuration name="SearchCarsRunner" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="SearchCarsRunner - 2021.07.13 at 11h 45m 31s.xml">
-      <configuration name="SearchCarsRunner" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="SearchCarsRunner - 2021.07.13 at 11h 45m 30s.xml">
-      <configuration name="SearchCarsRunner" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="SearchCarsRunner - 2021.07.13 at 11h 50m 01s.xml">
       <configuration name="SearchCarsRunner" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -461,6 +584,15 @@
     <history-entry file="SearchFlightRunner - 2021.07.26 at 19h 36m 19s.xml">
       <configuration name="SearchFlightRunner" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="SearchCarsRunner - 2021.07.27 at 18h 54m 21s.xml">
+      <configuration name="SearchCarsRunner" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="AddActivityToMyListRunner - 2021.07.27 at 19h 00m 59s.xml">
+      <configuration name="AddActivityToMyListRunner" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="LoginRunner - 2021.07.27 at 19h 16m 26s.xml">
+      <configuration name="LoginRunner" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -475,16 +607,17 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20671141" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21208054" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="SonarLint" weight="0.3796034" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.18838526" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24504249" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -536,167 +669,61 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/devco/certification/travelocity/runners/SearchStaysRunner.java">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="693">
+          <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/devco/certification/travelocity/runners/SearchCarsRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="11" selection-start-line="7" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/tasks/SearchStays.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#737#738#0" expanded="true" />
-            <element signature="e#814#815#0" expanded="true" />
-            <element signature="e#919#920#0" expanded="true" />
-            <element signature="e#983#984#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="798">
+          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/models/SearchStaysModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" selection-start-line="8" selection-end-line="10" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/models/ThingToDoSearchModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
-          <folding>
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#544#545#0" expanded="true" />
-            <element signature="e#592#593#0" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-            <element signature="e#663#664#0" expanded="true" />
-            <element signature="e#690#691#0" expanded="true" />
-            <element signature="e#730#731#0" expanded="true" />
-            <element signature="e#762#763#0" expanded="true" />
-            <element signature="e#791#792#0" expanded="true" />
-            <element signature="e#816#817#0" expanded="true" />
-            <element signature="e#852#853#0" expanded="true" />
-            <element signature="e#880#881#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/tasks/FilterByFlights.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="24" column="72" selection-start-line="24" selection-start-column="72" selection-end-line="24" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/devco/certification/travelocity/runners/AddActivityToMyListRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/userinterfaces/SignInPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/userinterfaces/TravelocityHomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="14" column="51" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/userinterfaces/TravelocityLoggedUserPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/userinterfaces/ResultSearchStaysPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/tasks/AddFirstItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1279#1280#0" expanded="true" />
-            <element signature="e#1349#1350#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/userinterfaces/FavoritesListPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="143" selection-start-line="12" selection-start-column="143" selection-end-line="12" selection-end-column="143" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/devco/certification/travelocity/runners/LoginRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="69" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/add_travelers_in_cruises.feature" />
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/devco/certification/travelocity/runners/SearchFlightRunner.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/exeptions/UnableToLogin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="10" column="41" selection-start-line="1" selection-end-line="10" selection-end-column="41" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/exeptions/WithoutConnectionToTheNetwork.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/models/SearchCarsModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+            <element signature="e#740#741#0" expanded="true" />
+            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#816#817#0" expanded="true" />
+            <element signature="e#860#861#0" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
+            <element signature="e#966#967#0" expanded="true" />
+            <element signature="e#1024#1025#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -722,58 +749,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/userinterfaces/ResultSearchThingToDoPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/models/SearchStaysModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="3" lean-forward="true" selection-start-line="6" selection-end-line="11" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="147">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/devco/certification/travelocity/stepdefinitions/SearchFlightStepDefinitions.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/models/ThingToDoSearchModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="49" column="39" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
+        <state relative-caret-position="168">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/userinterfaces/ResultSearchFlightPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/models/UserModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="14" column="5" selection-start-line="14" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/userinterfaces/ResultSearchCarsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="33" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="147">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/questions/SearchCarsResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="436">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#987#988#0" expanded="true" />
-            <element signature="e#1040#1041#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/questions/SearchFlightsResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
+        <state relative-caret-position="252">
           <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -783,7 +792,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/questions/SearchStaysResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
+        <state relative-caret-position="394">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -794,7 +803,17 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/questions/TheActivityWasAdded.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <caret line="9" column="63" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/questions/TravelocityLoginResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="26" column="107" selection-start-line="26" selection-start-column="107" selection-end-line="26" selection-end-column="107" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -803,112 +822,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/questions/TravelocityVisiblePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        <state relative-caret-position="336">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/serenity.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/tasks/AddFirstItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/devco/certification/travelocity/runners/AllFeaturesRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        <state relative-caret-position="308">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/devco/certification/travelocity/runners/SearchCarsRunner.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/tasks/EnterThe.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="11" selection-start-line="7" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="490">
+          <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/models/SearchCarsModel.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/tasks/EnterToSignInPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="30" />
-          <folding>
-            <element signature="e#566#567#0" expanded="true" />
-            <element signature="e#596#597#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-            <element signature="e#680#681#0" expanded="true" />
-            <element signature="e#712#713#0" expanded="true" />
-            <element signature="e#740#741#0" expanded="true" />
-            <element signature="e#782#783#0" expanded="true" />
-            <element signature="e#816#817#0" expanded="true" />
-            <element signature="e#860#861#0" expanded="true" />
-            <element signature="e#900#901#0" expanded="true" />
-            <element signature="e#966#967#0" expanded="true" />
-            <element signature="e#1024#1025#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/questions/TravelocityLoginResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="44" column="41" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#743#744#0" expanded="true" />
-            <element signature="e#786#787#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/devco/certification/travelocity/stepdefinitions/LoginStepDefinitions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="51" column="39" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/userinterfaces/SearchCarsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="28" column="48" lean-forward="true" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/devco/certification/travelocity/stepdefinitions/SearchCarsStepDefinitions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="47" column="50" lean-forward="true" selection-start-line="47" selection-start-column="50" selection-end-line="47" selection-end-column="50" />
+        <state relative-caret-position="525">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -917,47 +859,125 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/tasks/FillSearchCarsFields.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+        <state relative-caret-position="434">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/tasks/FillSearchFields.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+        <state relative-caret-position="434">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/devco/certification/travelocity/stepdefinitions/SearchStaysStepDefinitions.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/tasks/FillSearchStaysFields.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="40" column="48" lean-forward="true" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1785#1786#0" expanded="true" />
-            <element signature="e#1859#1860#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/devco/certification/travelocity/stepdefinitions/AddActivityToMyListStepDefinitions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
+        <state relative-caret-position="413">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/userinterfaces/SearchStaysPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/tasks/FillSearchThingToDoFields.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="26" column="64" lean-forward="true" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="64" />
+        <state relative-caret-position="434">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/tasks/FilterByFlights.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/tasks/OpenTheBrowser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/tasks/SearchStays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/userinterfaces/FavoritesListPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="92" selection-start-line="12" selection-start-column="92" selection-end-line="12" selection-end-column="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/userinterfaces/ResultSearchCarsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="100" selection-start-line="13" selection-start-column="100" selection-end-line="13" selection-end-column="100" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/userinterfaces/ResultSearchFlightPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="102" selection-start-line="15" selection-start-column="102" selection-end-line="15" selection-end-column="102" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/userinterfaces/ResultSearchStaysPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/userinterfaces/ResultSearchThingToDoPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="100" selection-start-line="14" selection-start-column="100" selection-end-line="14" selection-end-column="100" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/userinterfaces/SearchCarsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -966,8 +986,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/userinterfaces/SearchFlightPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="14" />
+        <state relative-caret-position="499">
+          <caret line="29" column="96" selection-start-line="29" selection-start-column="96" selection-end-line="29" selection-end-column="96" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/userinterfaces/SearchStaysPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -984,30 +1014,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/tasks/FillSearchStaysFields.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/userinterfaces/SignInPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        <state relative-caret-position="210">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/userinterfaces/TravelocityLoggedUserPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/devco/certification/travelocity/runners/AddActivityToMyListRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/devco/certification/travelocity/runners/LoginRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/devco/certification/travelocity/runners/AllFeaturesRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/devco/certification/travelocity/tasks/FillSearchThingToDoFields.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/devco/certification/travelocity/runners/SearchStaysRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        <state relative-caret-position="189">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/devco/certification/travelocity/stepdefinitions/AddActivityToMyListStepDefinitions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/devco/certification/travelocity/stepdefinitions/LoginStepDefinitions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/devco/certification/travelocity/stepdefinitions/SearchCarsStepDefinitions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/devco/certification/travelocity/stepdefinitions/SearchFlightStepDefinitions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/devco/certification/travelocity/stepdefinitions/SearchStaysStepDefinitions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1785#1786#0" expanded="true" />
+            <element signature="e#1859#1860#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/add_activity_to_my_list.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        <state relative-caret-position="294">
+          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -1025,17 +1129,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/search_flight.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/search_stays.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/search_flight.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="57" lean-forward="true" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
         </state>
       </provider>
     </entry>

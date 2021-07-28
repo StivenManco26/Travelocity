@@ -1,12 +1,9 @@
 package com.devco.certification.travelocity.tasks;
 
 import com.devco.certification.travelocity.userinterfaces.ResultSearchThingToDoPage;
-import net.serenitybdd.core.annotations.findby.By;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
-import net.serenitybdd.screenplay.actions.Enter;
-import net.serenitybdd.screenplay.targets.Target;
 import net.serenitybdd.screenplay.waits.WaitUntil;
 import net.thucydides.core.annotations.Step;
 
@@ -21,8 +18,6 @@ import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisi
  * @author manco.5@hotmail.com
  */
 public class AddFirstItem implements Task {
-
-    // Desarrollo de la tarea
     @Override
     @Step("{0} Enter the first item of the Thing to do search in your list")
     public <T extends Actor> void performAs(T actor) {

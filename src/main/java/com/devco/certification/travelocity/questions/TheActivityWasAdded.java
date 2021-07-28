@@ -9,11 +9,9 @@ import net.serenitybdd.screenplay.questions.Text;
 
 public class TheActivityWasAdded implements Question<Boolean> {
 
-    private String initialActivityName;
-
     @Override
     public Boolean answeredBy(Actor actor) {
-        initialActivityName = Text.of(ResultSearchThingToDoPage.FIRST_ACTIVITY_LABEL).viewedBy(actor).asString();
+        String initialActivityName = Text.of(ResultSearchThingToDoPage.FIRST_ACTIVITY_LABEL).viewedBy(actor).asString();
         actor.attemptsTo(Click.on(ResultSearchThingToDoPage.SIGN_IN_BUTTON),
                 Click.on(ResultSearchThingToDoPage.LIST_OF_FAVORITES_BUTTON));
         initialActivityName = initialActivityName.substring(3);

@@ -14,7 +14,6 @@ import net.serenitybdd.screenplay.questions.Text;
 public class SearchCarsResult implements Question<Boolean> {
 
     private String location;
-    private String finalLocation;
 
     public SearchCarsResult(String location) {
         this.location = location;
@@ -23,7 +22,7 @@ public class SearchCarsResult implements Question<Boolean> {
     @Override
     public Boolean answeredBy(Actor actor) {
         location = location.toLowerCase();
-        finalLocation = Text.of(ResultSearchCarsPage.SEARCH_SUMMARY_LABEL).viewedBy(actor).asString().toLowerCase();
+        String finalLocation = Text.of(ResultSearchCarsPage.SEARCH_SUMMARY_LABEL).viewedBy(actor).asString().toLowerCase();
         return finalLocation.contains(location);
     }
 

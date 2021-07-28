@@ -31,13 +31,11 @@ public class LoginStepDefinitions {
 
     private TravelocityHomePage travelocityHomePage;
 
-    // Inicialización del driver a cargo del actor
     @Before
     public void setUp() {
         user.can(BrowseTheWeb.with(hisBrowser));
     }
 
-    // Inicializa el WebDriver en la pagina de Travelocity
     @Given("^that User wants sign in into Travelocity$")
     public void thatUserWantsSignInIntoTravelocity() {
         user.wasAbleTo(OpenTheBrowser.on(travelocityHomePage));
